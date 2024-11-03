@@ -2,6 +2,7 @@
   "name": "license-management",
   "version": "1.0.0",
   "description": "License management system with Lemon Squeezy",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
