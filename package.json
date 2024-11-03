@@ -1,11 +1,10 @@
-
 {
   "name": "license-management-api",
   "version": "1.0.0",
   "description": "License management API with Lemon Squeezy",
   "scripts": {
     "dev": "netlify dev",
-    "build": "netlify build"
+    "build": "echo 'No build required'"
   },
   "dependencies": {
     "node-fetch": "^2.6.1"
