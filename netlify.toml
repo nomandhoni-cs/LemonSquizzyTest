@@ -1,6 +1,5 @@
 [build]
   functions = "functions"
-  command = "echo 'No build required'"
   publish = "public"
 
 [[redirects]]

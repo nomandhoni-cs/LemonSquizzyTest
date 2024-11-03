@@ -4,7 +4,8 @@
   "description": "License management API with Lemon Squeezy",
   "scripts": {
     "dev": "netlify dev",
-    "build": "echo 'No build required'"
+    "prebuild": "mkdir -p public",
+    "build": "echo '<!DOCTYPE html><html><body>API Only</body></html>' > public/index.html"
   },
   "dependencies": {
     "node-fetch": "^2.6.1"
